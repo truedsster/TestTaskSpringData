@@ -1,8 +1,9 @@
-package com.example.accessingdatajpa;
+package com.example.accessingdatajpa.repository;
+
+import com.example.accessingdatajpa.entity.Customer;
+import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
